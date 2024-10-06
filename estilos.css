@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    
+  
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+ /* Cambio de color al pasar el cursor */
+ nav ul li a:hover {
+    color: red; /* Color al pasar el cursor */
+    transition: color 0.9s ease;
+}
+
+/* Otro ejemplo para párrafos */
+p {
+    color: white;
+    transition: color 0.5s ease; /* Suaviza el cambio de color */
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+p:hover {
+    color: blue /* Cambia a azul al pasar el cursor */
+}
+
+
+
+header {
+    background: url('https://www.qualitydevs.com/wp-content/uploads/2020/03/ciberseguridad-empresas.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.sobre-mi {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.sobre-mi h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-mi p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: blue;
+}
+
+.proyectos {
+    text-align: center;
+}
+
+.proyectos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.proyectos .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.proyectos .galeria div {
+    width: 30%;
+    padding: 10px;
+    border: 5px solid darkblue;
+    background-color:  #90948D;
+    
+    
+    
+}
+
+.proyectos .galeria div img {
+    width: 100%;
+    height: 250px;
+    width: 250px;
+  
+}
+
+.contacto {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 50px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contacto form input, .contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.contacto form button {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer {
+	width: 100%; /* El pie de página ocupa todo el ancho de la página */
+	height: 50px; /* Altura fija del pie de página */
+	bottom: 0; /* Se asegura de estar pegado al fondo */
+	display: grid; /* Utiliza grid para organizar el contenido */
+	grid-template-columns: 1fr 1fr; /* Divide el pie de página en dos columnas */
+	align-items: center; /* Alinea verticalmente los elementos */
+	font-size: 13px; /* Tamaño del texto en el pie de página */
+	background-color: black; /* Color de fondo gris claro */
+	border-top: 1px solid #e4e4e4; /* Añade una línea divisoria en la parte superior */
+}
+
+/* Estilo para las listas dentro del pie de página */
+footer ul {
+	margin: 10px; /* Margen alrededor de la lista */
+	list-style: none; /* Elimina los puntos de la lista */
+	display: flex; /* Coloca los elementos de la lista en línea horizontal */
+	padding-left: 0; /* Elimina el padding a la izquierda */
+}
+
+/* Justificación de la columna izquierda del pie de página */
+footer .footer-left {
+	justify-self: left; /* Alinea el contenido a la izquierda */
+}
+
+/* Justificación de la columna derecha del pie de página */
+footer .footer-right {
+	justify-self: right; /* Alinea el contenido a la derecha */
+}
+
+/* Estilo de los enlaces dentro del pie de página */
+footer ul li a {
+	margin: 10px; /* Espacio alrededor de cada enlace */
+	color: #1d70d5; /* Color del texto de los enlaces */
+}
